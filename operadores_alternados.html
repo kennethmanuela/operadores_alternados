@@ -1,0 +1,50 @@
+<html>
+
+   <head>
+   
+        <script>
+		
+		var notaA= prompt("notaA")
+		document.write("sua primeira nota foi 10<br>")
+		
+		var notaB= prompt("notaB")
+		document.write("sua segunda nota foi 7<br>")
+		
+		var notaC= prompt("notaC")
+		document.write("sua terceira nota foi 6<br>")
+		
+		notaA= parseFloat(notaA)
+		
+		notaB= parseFloat(notaB)
+		
+		notaC= parseFloat(notaC)
+		
+		var media= 6
+		
+		var soma= notaA+notaB+notaC
+		document.write(soma+'<br>')
+		
+		media = (notaA+notaB+notaC)/3
+		document.write('resultado: '+media+' <br>')
+		
+		/*
+		
+		if(media>=6){
+		document.write("A sua media='+media+' você está aprovado")
+		}
+		else{
+		document.write("A sua media= '+media+' você está reprovado")
+		}*/
+		
+		var resultado=(media>=6)?'A sua média='+media+'você está aprovado':'A sua média='+media+' você está reprovado'
+		
+		document.write(resultado)
+		
+		</script>
+   
+   
+   </head>
+   <body></body>
+      
+
+</html>
